@@ -1,6 +1,7 @@
 import { useSelector } from "react-redux";
 import { selectIsLoading, selectPosts } from "../../redux/selectors";
-import { CircularProgress, Grid, Typography } from "@mui/material";
+import { CircularProgress, Grid, Typography, Zoom } from "@mui/material";
+
 import PropTypes from "prop-types";
 
 import Post from "./Post/Post";
