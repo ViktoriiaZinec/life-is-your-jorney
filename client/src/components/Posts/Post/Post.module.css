@@ -1,0 +1,45 @@
+.cardStyle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 8px;
+  height: 100%;
+  position: relative;
+}
+
+.cardMediaStyle {
+  height: 0;
+  padding-top: 56.25%;
+}
+
+.cardContentStyle {
+  flex-grow: 1;
+}
+
+.overlay {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: aliceblue;
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0px;
+  right: 20px;
+  color: aliceblue;
+}
+
+.detailStyle {
+  margin: 20px;
+}
+
+.titleStyle {
+  padding: 0 16px;
+}
+
+.cardActionsStyle {
+  padding: 0 20px 14px 20px;
+  display: flex;
+  justify-content: space-between;
+}

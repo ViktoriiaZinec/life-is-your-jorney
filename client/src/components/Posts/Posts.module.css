@@ -1,0 +1,16 @@
+.mainContainer {
+  display: flex;
+  align-items: center;
+}
+
+.smMargin {
+  position: inherit;
+}
+
+.actionDiv {
+  text-align: center;
+}
+.noPosts {
+  padding-top: 20px;
+  text-align: center;
+}
